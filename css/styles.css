@@ -264,7 +264,10 @@ ol, ul {
     padding: 8% 10%;
 }
 
-
+svg.feather.feather-shopping-cart {
+    width: 15px;
+    height: 15px;
+}
 .about-us {
     display: flex;
     flex-direction: row;
