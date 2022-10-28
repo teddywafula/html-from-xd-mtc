@@ -89,6 +89,12 @@ ol, ul {
   } 
 .container-1 {
     position: relative;
+    background: black;
+    overflow: hidden;
+}
+.container-1 .carousel-item img {
+    object-fit: cover;
+    opacity: 0.3;
 }
 .container-1 .carousel-control-prev-icon, .container-1 .carousel-control-next-icon {
     display: none !important;
