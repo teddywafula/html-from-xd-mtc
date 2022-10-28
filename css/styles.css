@@ -77,8 +77,6 @@ ol, ul {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    /* transform: translateY(-50%);
-    top: 50%; */
   }
 
   .carousel-item {
@@ -252,8 +250,7 @@ ol, ul {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    /* transform: translateY(-50%);
-    top: 50%; */
+    
   }
 
   .container-2 .carousel-item {
