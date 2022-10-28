@@ -1,0 +1,243 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+@media screen and (min-device-width: 3840px) {
+  
+}
+
+@media screen and (min-device-width: 1201px) 
+and (max-device-width: 3839px){
+    .middle-cta {
+        top: 30%;
+      }
+}
+
+@media screen and (min-device-width: 1024px) 
+and (max-device-width: 1200px){
+    .about-us .right-section .title {
+        font-size: 30px;
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-device-width: 769px) 
+and (max-device-width: 1023px){
+    .navbar {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      
+    .navbar .logo {
+        padding: 0px 0px;
+      }
+      .navbar .social {
+        margin-right: 0px;
+      }
+      .navbar .orders {
+        margin-left: 0;
+      }
+    .about-us {
+        flex-direction: column;
+    }
+    .about-us .left-section {
+        width: 100%;
+    }
+    .about-us .right-section {
+        width: 100%;
+        text-align: center;
+        margin: auto auto 5% auto;
+    }
+    .about-us .right-section .about-us-link {
+        width: 20%;
+        margin-left: 40%;
+    }
+    .about-us .right-section .title {
+        font-size: 35px;
+    }
+    
+    .middle-cta {
+        top: 20%
+    }
+    
+    .gallery .images img{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+}
+@media screen and (min-device-width: 481px) 
+and (max-device-width: 768px){
+    .about-us {
+        flex-direction: column;
+    }
+    .about-us .left-section {
+        width: 100%;
+    }
+    .about-us .right-section {
+        width: 100%;
+        text-align: center;
+        margin: auto auto 5% auto;
+    }
+    .about-us .right-section .about-us-link {
+        width: 25%;
+        margin-left: 40%;
+    }
+    .about-us .right-section .title {
+        font-size: 35px;
+    }
+    .middle-cta {
+        top: 12%
+    }
+    .middle-cta .content {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .middle-cta .cta-btn {
+        margin: 0 20%;
+    }
+    .mobile-navbar {
+        display: flex;
+    }
+    .navbar {
+        display: none;
+    }
+    .gallery .images img{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+      .container-1 .carousel-control-prev-icon, .container-1 .carousel-control-next-icon {
+        display: block !important;
+    }
+}
+
+@media screen and (min-device-width: 320px) 
+and (max-device-width: 480px){
+    .container-2 .faq a {
+        padding: 0px;
+    }
+    .mobile-navbar {
+        display: flex;
+    }
+    .navbar {
+        display: none;
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+    .about-us .left-section {
+        width: 100%;
+    }
+    .about-us .right-section {
+        width: 100%;
+        text-align: center;
+        margin: auto auto 5% auto;
+    }
+    .about-us .right-section .about-us-link {
+        width: 35%;
+        margin-left: 33%;
+    }
+    .middle-cta {
+        top: 6%;
+    }
+    .middle-cta .title {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .middle-cta .content {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .middle-cta .cta-btn {
+        margin: 0 10%;
+        padding: 3px;
+    }
+
+    .gallery .images img{
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+      .footer-nav {
+        flex-direction: column;
+      }
+       .footer-nav .mtc-nav {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        max-width: 50%;
+    }
+    .container-1 .carousel-control-prev-icon, .container-1 .carousel-control-next-icon {
+        display: block !important;
+    }
+}
+
+@media screen and (max-device-width: 320px){ 
+    .container-2 .faq a {
+        padding: 0px;
+    }
+    .mobile-navbar {
+        display: flex;
+    }
+    .navbar {
+        display: none;
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+    .about-us .left-section {
+        width: 100%;
+    }
+    .about-us .right-section {
+        width: 100%;
+        text-align: center;
+        margin: auto auto 5% auto;
+    }
+    .about-us .right-section .about-us-link {
+        width: 45%;
+        margin-left: 25%;
+    }
+    .middle-cta {
+        top: 10%;
+    }
+    .middle-cta .title {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    .middle-cta .content {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .middle-cta .cta-btn {
+        margin: 0 5%;
+        padding: 0px;
+    }
+
+    .gallery .images img{
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+      .footer-nav {
+        flex-direction: column;
+      }
+       .footer-nav .mtc-nav {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .container-1 .carousel-control-prev-icon, .container-1 .carousel-control-next-icon {
+        display: block !important;
+    }
+    .carousel-indicators {
+        bottom: 4px;
+    }
+}
